@@ -1,0 +1,10 @@
+[package]
+name = "export-mags"
+version = "0.1.0"
+authors = ["Timofey Misarenkov <kuuffff@gmail.com>"]
+
+[dependencies]
+markdown = { git = "https://github.com/amty/markdown.rs" }
+csv = "1.0.0-beta.5"
+serde = "*"
+serde_derive = "*"
